@@ -1,5 +1,7 @@
 applications:
   - name: gomangrove
-    env:
-        GOPACKAGENAME: gomangrove
     command: gomangrove
+    env:
+    GOVERSION: go1.12
+    GOPACKAGENAME: gomangrove
+    
