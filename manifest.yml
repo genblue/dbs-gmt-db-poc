@@ -1,0 +1,5 @@
+applications:
+  - name: gomangrove
+    env:
+        GOPACKAGENAME: gomangrove
+    command: gomangrove
